@@ -1,0 +1,119 @@
+<view class="item" bindtap="seeDetail">
+  <view class="top">
+    <view class="title">日韩疫情持续加剧 全球半导体产业链影响几何？</view>
+    <view class="pic">
+      <image src="../../pages/images/news/1.jpg" style="width:30%;height:79px;"></image>
+    </view>
+  </view>
+  <view class="info">
+    <view class="desc">
+      <text>新浪科技综合</text>
+      <text>48评论</text>
+      <text>02-27 01：56</text>
+    </view>
+    <view class="opr">
+      <view>x</view>
+    </view>
+  </view>
+</view>
+<view class="hr"></view>
+
+<view class="item" bindtap="seeDetail">
+ <view class="top">
+  <view class="title">美股暴跌：经济前景不佳 权重股“绑架”指数存危机</view>
+  <view class="pic">
+    <image src="../../pages/images/news/2.jpg" style="width:30%;height:79px;"></image>
+  </view>
+  </view>
+  <view class="info">
+    <view class="desc">
+      <text>一财网</text>
+      <text>19评论</text>
+      <text>今天06：52</text>
+    </view>
+    <view class="opr">
+      <view>x</view>
+    </view>
+  </view>
+</view>
+<view class="hr"></view>
+
+<view class="item" bindtap="seeDetail">
+ <view class="top">
+  <view class="title">嘀嗒公司被约谈：已暂停进出京城跨城相关业务</view>
+  <view class="pic">
+    <image src="../../pages/images/news/3.jpg" style="width:30%;height:79px;"></image>
+  </view>
+  </view>
+  <view class="info">
+    <view class="desc">
+      <text>交通运输部</text>
+      <text>148评论</text>
+      <text>今天08：24</text>
+    </view>
+    <view class="opr">
+      <view>x</view>
+    </view>
+  </view>
+</view>
+<view class="hr"></view>
+
+<view class="item" bindtap="seeDetail">
+ <view class="top">
+  <view class="title">陈一新的一番话后，产生怎样的震动？</view>
+  <view class="pic">
+    <image src="../../pages/images/news/4.jpg" style="width:30%;height:79px;"></image>
+  </view>
+  </view>
+  <view class="info">
+    <view class="desc">
+      <text>中央政法委长</text>
+      <text>44评论</text>
+      <text>今天07：23</text>
+    </view>
+    <view class="opr">
+      <view>x</view>
+    </view>
+  </view>
+</view>
+<view class="hr"></view>
+
+<view class="item" bindtap="seeDetail">
+ <view class="top">
+  <view class="title">国机集团苏美达紧急转产医用防护服10天日产破万套</view>
+  <view class="pic">
+    <image src="../../pages/images/news/5.jpg" style="width:30%;height:79px;"></image>
+  </view>
+  </view>
+  <view class="info">
+    <view class="desc">
+      <text>新浪财经综合</text>
+      <text>2评论</text>
+      <text>今天12：06</text>
+    </view>
+    <view class="opr">
+      <view>x</view>
+    </view>
+  </view>
+</view>
+<view class="hr"></view>
+
+<view class="item" bindtap="seeDetail">
+ <view class="top">
+  <view class="title">美指持续走弱在岸、离岸人名币双双升值收复7关口</view>
+  <view class="pic">
+    <image src="../../pages/images/news/6.jpg" style="width:30%;height:79px;"></image>
+  </view>
+  </view>
+  <view class="info">
+    <view class="desc">
+      <text>央视</text>
+      <text>38评论</text>
+      <text>02-07</text>
+    </view>
+    <view class="opr">
+      <view>x</view>
+    </view>
+  </view>
+</view>
+<view class="hr"></view>

@@ -1,0 +1,146 @@
+<view class="content">
+  <view class="bg">
+    <view class="head">
+      <view class="headIcon">
+        <!-- <image src="{{userInfo.avatarUrl}}" style="width:70px;height:70px;"></image> -->
+        <image src="../../pages/images/me/tou.png" style="width:70px;height:70px;"></image>
+      </view>
+      <view class="name" bindtap="login">
+        <!-- 立即登录 -->
+        {{name}}
+        <!-- <text>Erika</text> -->
+      </view>
+      <view class="detail">
+        <text>></text>
+      </view>
+    </view>
+    <!-- <view class="count">
+        <view class="desc">
+          <view>10</view>
+          <view>关注</view>
+        </view>
+        <view class="desc">
+          <view>267</view>
+          <view>粉丝</view>
+        </view>
+        <view class="desc" style="border:0px;">
+          <view>300</view>
+          <view>7天访客</view>
+        </view>
+       </view> -->
+  </view>
+
+  <view class="nav">
+    <view class="nav-item">
+      <view>
+        <image src="../../pages/images/icon/guanzhu.png" style="width:33px;height:33px;"></image>
+      </view>
+      <view>关注</view>
+    </view>
+
+    <view class="nav-item">
+      <view>
+        <image src="../../pages/images/icon/shoucang.png" style="width:33px;height:33px;"></image>
+      </view>
+      <view>收藏</view>
+    </view>
+    <view class="nav-item">
+      <view>
+        <image src="../../pages/images/icon/history.png" style="width:33px;height:33px;"></image>
+      </view>
+      <view>历史</view>
+    </view>
+    <view class="nav-item">
+      <view>
+        <image src="../../pages/images/icon/xiaoxi.png" style="width:33px;height:33px;"></image>
+      </view>
+      <view>消息</view>
+    </view>
+  </view>
+  <view class="hr"></view>
+  <view class="server">我的服务</view>
+  <view class="nav">
+    <view class="nav-item">
+      <view>
+        <image src="../../pages/images/icon/zichan.png" style="width:33px;height:33px;"></image>
+      </view>
+      <view>我的资产</view>
+    </view>
+
+    <view class="nav-item">
+      <view>
+        <image src="../../pages/images/icon/moni.png" style="width:33px;height:33px;"></image>
+      </view>
+      <view>模拟交易</view>
+    </view>
+    <view class="nav-item">
+      <view>
+        <image src="../../pages/images/icon/licai.png" style="width:33px;height:33px;"></image>
+      </view>
+      <view>理财大学</view>
+    </view>
+    <view class="nav-item">
+      <view>
+        <image src="../../pages/images/icon/shouyi.png" style="width:33px;height:33px;"></image>
+      </view>
+      <view>持仓收益</view>
+    </view>
+  </view>
+  <view class="hr"></view>
+
+
+  <view class="item">
+    <view class="pic">
+      <image src="../../pages/images/icon/kaihu.png" style="width:23px;height:23px;"></image>
+    </view>
+    <view class="title">股票开户</view>
+    <view class="detail2">
+      <text>></text>
+    </view>
+  </view>
+  <view class="line"></view>
+
+  <view class="item">
+    <view class="pic">
+      <image src="../../pages/images/icon/jiaoyi.png" style="width:23px;height:23px;"></image>
+    </view>
+    <view class="title">股票交易</view>
+    <view class="detail2">
+      <text>></text>
+    </view>
+  </view>
+
+  <view class="hr"></view>
+  <view class="item">
+    <view class="pic">
+      <image src="../../pages/images/icon/yejian.png" style="width:23px;height:23px;"></image>
+    </view>
+    <view class="title">夜间模式</view>
+    <view class="detail2">
+      <switch></switch>
+    </view>
+  </view>
+
+  <view class="line"></view>
+  <view class="item">
+    <view class="pic">
+      <image src="../../pages/images/icon/fankui.png" style="width:23px;height:23px;"></image>
+    </view>
+    <view class="title">用户反馈</view>
+    <view class="detail2">
+      <text>></text>
+    </view>
+  </view>
+
+  <view class="line"></view>
+  <view class="item" bindtap="setup">
+    <view class="pic">
+      <image src="../../pages/images/icon/setup.png" style="width:23px;height:23px;"></image>
+    </view>
+    <view class="title">系统设置</view>
+    <view class="detail2">
+      <text>></text>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,45 @@
+<view class="content">
+  <view class="title">日韩疫情持续加剧 全球半导体产业链影响几何？</view>
+  <view class="desc">
+    <view class="publish">
+      <view>
+        <image src="../../pages/images/icon/xlcj.jpg" style="width:36px;height:36px;"></image>
+      </view>
+      <view class="company">
+        <view>新浪科技综合</view>
+        <view class="attr">
+          <text class="mark">原创</text>
+          <text class="time">02-27 01:56</text>
+        </view>
+      </view>
+    </view>
+    <view class="btn">
+      <image src="../../pages/images/icon/operate.jpg" style="width:70px;height:27px;"></image>
+    </view>
+  </view>
+  <view class="article">
+    <view>全球疫情还在蔓延，根据2月26日的报道，韩国累计确诊感染者达到1261人，日本新冠肺炎感染者达862人。</view>
+    <view>一衣带水的日韩疫情凶猛，也牵动着全球半导体产业的脉搏，因为两个国家都处在半导体的关键地位。其中，韩国位于半导体技术俯冲带，在存储器、面板等领域投资力度巨大，日本是产业链上的核心技术节点，半导体材料、机械设备都首屈一指。</view>
+    <view>在以上领域中，大家更关注存储器以及上游材料的状况。而面板产业，中国产能更大，也有替代之选，生产设备上则有市占率更高的欧洲厂商可以选择。</view>
+    <view>目前日韩的半导体巨头三星、SK海力士等并未停工，都在运转中。短期来看，影响尚不明显，但是一旦疫情继续恶化，关键供应的短缺会为全球产业链带来巨大损失。</view>
+    <view>据记者了解，三星确诊的员工是在手机工厂，并且是试验线，员工并不多，对整体影响不大。三星电子则表示，公司在韩国的芯片和面板工厂未受影响。</view>
+    <view>日前，SK海力士位于韩国利川工厂的一名新员工曾与大邱市确诊病例有密切接触。SK海力士对外表示，该名员工核酸检查结果为“阴性”，为安全起见继续被隔离至3月1日。对于该员工所接触的800名人员都无条件地进行隔离。SK海力士在利川工厂拥有1.8万多名员工，工厂的运营不会受此影响，目前正常运营中。</view>
+    <view>多位半导体业内人士向21世纪经济报道记者表示，现在日韩政府干预力度没有那么大，工厂都是正常开工，需要保持动态跟踪。</view>
+    <view>有手机从业者曾告诉记者，存储已经超过屏幕、CPU，成为手机最大的成本，存储在手机中的成本达到25%-35%，可见其重要性。而三星、SK海力士均在存储器领域占据垄断地位。</view>
+    <view>根据集邦咨询半导体研究中心（DRAMeXchange）调查显示，从2019年第四季度全球NAND品牌厂商营收来看，三星排名第一，市场份额达到35.5%；SK海力士排名第六，市场份额为9.6%。2019年第四季度全球DRAM厂自有品牌内存营收排名中，三星位居第一，市场份额43.5%，SK海力士为第二名，市场份额29.2%。</view>
+    <view>整体来看，NAND领域，三星加上SK海力士，韩系厂商市占比为45.1%，接近半壁江山；在DRAM领域，三星和SK的占比高达72.7%。</view>
+    <view></view>
+  </view>
+  <view class="comment">
+    <view class="write">
+      <input type="text" placeholder="写评论..." />
+    </view>
+    <view class="opr">
+      <image src="../../pages/images/icon/pinglun.png" style="width:31px;height:26px;"></image>
+      <image src="{{imgUrl}}" bindtap="clickMe" style="width:31px;height:26px;"></image>
+      <!-- <image src="../../pages/images/icon/shoucang.png" style="width:31px;height:26px;"></image> -->
+      <!-- <image src="../../pages/images/icon/fenxiang.png" style="width:31px;height:26px;"></image> -->
+       <image src="{{dianzanimgUrl}}"  bindtap="clickMe2" style="width:31px;height:26px;"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,116 @@
+<view class="item" bindtap="seeDetail">
+  <view class="pic">
+    <image src="../../pages/images/hangqing/shangzheng.png" style="width:30%;height:69px;"></image>
+    <image src="../../pages/images/hangqing/shencheng.png" style="width:30%;height:69px;"></image>
+    <image src="../../pages/images/hangqing/chuangyeban.png" style="width:30%;height:69px;"></image>
+  </view>
+</view>
+<view class="hr"></view>
+<view class="item2">
+  <!-- <view class="dian">.</view> -->
+  <!-- <view>上涨233支</view> -->
+</view>
+
+
+<view class="item3">
+  <view class="pic">
+    <image src="../../pages/images/icon/xia.png" style="width:23px;height:23px;"></image>
+  </view>
+  <view class="title3">盘中异动</view>
+  <view class="detail3">
+    <text>...</text>
+  </view>
+</view>
+<view class="line"></view>
+
+<view class="item33">
+  <view class="title33">14:57:01 金诚信</view>
+  <view class="detail33">
+    <view class="pic">
+      <image src="../../pages/images/icon/shangla.png" style="width:85px;height:25px;"></image>
+    </view>
+  </view>
+</view>
+<view class="hr2"></view>
+
+
+<view class="item3">
+  <view class="pic">
+    <image src="../../pages/images/icon/xia.png" style="width:23px;height:23px;"></image>
+  </view>
+  <view class="title3">领涨行业</view>
+  <view class="detail3">
+    <text>...</text>
+  </view>
+</view>
+<view class="line"></view>
+
+<view class="item" bindtap="seeDetail">
+  <view class="pic">
+    <image src="../../pages/images/hangqing/fangzhi.png" style="width:30%;height:69px;"></image>
+    <image src="../../pages/images/hangqing/yiliao.png" style="width:30%;height:69px;"></image>
+    <image src="../../pages/images/hangqing/huaxue.png" style="width:30%;height:69px;"></image>
+  </view>
+</view>
+<view class="hr2"></view>
+
+<view class="item3">
+  <view class="pic">
+    <image src="../../pages/images/icon/xia.png" style="width:23px;height:23px;"></image>
+  </view>
+  <view class="title3">领涨概念</view>
+  <view class="detail3">
+    <text>...</text>
+  </view>
+</view>
+<view class="line"></view>
+
+<view class="item" bindtap="seeDetail">
+  <view class="pic">
+    <image src="../../pages/images/hangqing/yiyong.png" style="width:30%;height:69px;"></image>
+    <image src="../../pages/images/hangqing/kouzhao.png" style="width:30%;height:69px;"></image>
+    <image src="../../pages/images/hangqing/kangliu.png" style="width:30%;height:69px;"></image>
+  </view>
+</view>
+<view class="hr2"></view>
+
+<view class="item3">
+  <view class="pic">
+    <image src="../../pages/images/icon/xia.png" style="width:23px;height:23px;"></image>
+  </view>
+  <view class="title3">热门排行榜</view>
+  <view class="detail3">
+    <text>...</text>
+  </view>
+</view>
+<view class="line"></view>
+
+<view class="item4">
+  <view>涨幅榜</view>
+  <view>跌幅榜</view>
+  <view>快速涨幅</view>
+  <view>快速跌幅</view>
+  <view>5日涨幅</view>
+</view>
+<view class="item4">
+  <view>大单净量</view>
+  <view>主力净流入</view>
+  <view>成交额榜</view>
+  <view>量比榜</view>
+  <view>换手率榜</view>
+</view>
+<view class="hr2"></view>
+<view class="item5">
+  <view class="ming">名称</view>
+  <view class="new">最新价</view>
+  <view class="zhang">涨幅</view>
+</view>
+<view class="item6">
+  <view class="mingchen">
+    <view>洁特生物</view>
+    <view class="english">SH688026</view>
+  </view>
+  <view class="zuixin">83.15</view>
+  <view class="zhangfu">+19.99%</view>
+</view>
+

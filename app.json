@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hangqing/hangqing",
+    "pages/zhibo/zhibo",
+    "pages/me/me",
+    "pages/setup2/setup2",
+    "pages/subjectDetail/subjectDetail",
+    "pages/detail/detail",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3c98d5",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#fefefe",
+    "color": "#000000",
+    "selectedColor": "#3c98d5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/tab/index.png",
+        "selectedIconPath": "pages/images/tab/index-active.png"
+      },
+      {
+        "pagePath": "pages/zhibo/zhibo",
+        "text": "直播",
+        "iconPath": "pages/images/tab/zhibo.png",
+        "selectedIconPath": "pages/images/tab/zhibo-active.png"
+      },
+      {
+        "pagePath": "pages/hangqing/hangqing",
+        "text": "行情",
+        "iconPath": "pages/images/tab/hangqing.png",
+        "selectedIconPath": "pages/images/tab/hangqing-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "pages/images/tab/me.png",
+        "selectedIconPath": "pages/images/tab/me-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

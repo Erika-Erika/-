@@ -1,0 +1,156 @@
+<view class="content">
+  <view class="section">
+    <swiper autoplay="true" interval="3000" duration="1000" indicator-dots="{{indicatorDots}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" width="350" height="211" class="slide-image"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class="opr">
+    <view class="btn">
+      <view>
+        <image src="/pages/images/icon/new.png" style="width:35px;height:20px;"></image>
+      </view>
+      <view>最新</view>
+    </view>
+
+    <view class="btn">
+      <view>
+        <image src="../../pages/images/icon/hot.png" style="width:20px;height:20px;"></image>
+      </view>
+      <view>最热</view>
+    </view>
+  </view>
+
+  <view class="list">
+    <view class="item" bindtap="seeDetail" id="0">
+      <view>
+        <image src="../../pages/images/list/1.jpg" style="width:78px;height:60px;"></image>
+      </view>
+      <view class="desc">
+        <view class="title">招商基金苏燕青</view>
+        <view class="count">
+          <view>明天 10：00</view>
+          <view>
+            <image src="../../pages/images/icon/star.png" style="width:18px;height:17px;"></image>
+          </view>
+          <view>19</view>
+          <view>
+            <image src="../../pages/images/icon/eye.png" style="width:23px;height:17px;"></image>
+          </view>
+          <view>13298</view>
+        </view>
+      </view>
+    </view>
+    <view class="hr"></view>
+
+    <view class="item" bindtap="seeDetail" id="1">
+      <view>
+        <image src="../../pages/images/list/2.jpg" style="width:78px;height:60px;"></image>
+      </view>
+      <view class="desc">
+        <view class="title">A股“云上市”</view>
+        <view class="count">
+          <view>3-2 09：10</view>
+          <view>
+            <image src="../../pages/images/icon/star.png" style="width:18px;height:17px;"></image>
+          </view>
+          <view>295</view>
+          <view>
+            <image src="../../pages/images/icon/eye.png" style="width:23px;height:17px;"></image>
+          </view>
+          <view>16678</view>
+        </view>
+      </view>
+    </view>
+    <view class="hr"></view>
+
+    <view class="item" bindtap="seeDetail" id="2">
+      <view>
+        <image src="../../pages/images/list/3.jpg" style="width:78px;height:60px;"></image>
+      </view>
+      <view class="desc">
+        <view class="title">国泰基金徐成城</view>
+        <view class="count">
+          <view>3-2 10：10</view>
+          <view>
+            <image src="../../pages/images/icon/star.png" style="width:18px;height:17px;"></image>
+          </view>
+          <view>134</view>
+          <view>
+            <image src="../../pages/images/icon/eye.png" style="width:23px;height:17px;"></image>
+          </view>
+          <view>11784</view>
+        </view>
+      </view>
+    </view>
+    <view class="hr"></view>
+
+    <view class="item" bindtap="seeDetail" id="3">
+      <view>
+        <image src="../../pages/images/list/4.jpg" style="width:78px;height:60px;"></image>
+      </view>
+      <view class="desc">
+        <view class="title">天弘基金张子法</view>
+        <view class="count">
+          <view>03-02 14：00</view>
+          <view>
+            <image src="../../pages/images/icon/star.png" style="width:18px;height:17px;"></image>
+          </view>
+          <view>122</view>
+          <view>
+            <image src="../../pages/images/icon/eye.png" style="width:23px;height:17px;"></image>
+          </view>
+          <view>16788</view>
+        </view>
+      </view>
+    </view>
+    <view class="hr"></view>
+
+    <view class="item" bindtap="seeDetail" id="4">
+      <view>
+        <image src="../../pages/images/list/5.jpg" style="width:78px;height:60px;"></image>
+      </view>
+      <view class="desc">
+        <view class="title">银华基金</view>
+        <view class="count">
+          <view>03-02 15：30</view>
+          <view>
+            <image src="../../pages/images/icon/star.png" style="width:18px;height:17px;"></image>
+          </view>
+          <view>555</view>
+          <view>
+            <image src="../../pages/images/icon/eye.png" style="width:23px;height:17px;"></image>
+          </view>
+          <view>688666</view>
+        </view>
+      </view>
+    </view>
+    <view class="hr"></view>
+
+    <view class="item" bindtap="seeDetail" id="5">
+      <view>
+        <image src="../../pages/images/list/6.jpg" style="width:78px;height:60px;"></image>
+      </view>
+      <view class="desc">
+        <view class="title">天弘基金：陈国光</view>
+        <view class="count">
+          <view>03-02 15：40</view>
+          <view>
+            <image src="../../pages/images/icon/star.png" style="width:18px;height:17px;"></image>
+          </view>
+          <view>855</view>
+          <view>
+            <image src="../../pages/images/icon/eye.png" style="width:23px;height:17px;"></image>
+          </view>
+          <view>33787</view>
+        </view>
+      </view>
+    </view>
+    <view class="hr"></view>
+
+  </view>
+</view>

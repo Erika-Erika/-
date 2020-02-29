@@ -1,0 +1,26 @@
+<view class="content">
+  <view class="item">
+    <view class="pic">
+      <!-- <image src="../../pages/images/detail/pic-1.png" style="width:312px;height:219px;"></image> -->
+      <video style="height:250px;width:350px;" src="{{mapUrl}}"> </video>
+    </view>
+    <view class="opr">
+      <view>
+        <image src="../../pages/images/detail/star.png" style="width:18px;height:17px;"></image>
+      </view>
+      <view>17841</view>
+      <view class="zw"></view>
+      <view>
+        <image src="../../pages/images/detail/say.png" style="width:21px;height:20px;"></image>
+      </view>
+      <view>48</view>
+    </view>
+    <view class="hr"></view>
+    <view class="now">当前时间</view>
+    <view class="time">{{time}}</view>
+
+ 
+
+
+  </view>
+</view>

@@ -1,0 +1,76 @@
+<view class="content">
+
+  <view class="navbg">
+    <view class="nav">
+       <scroll-view class="scroll-view_H" scroll-x="true">
+          <view class="scroll-view_H">
+             <view>
+               <view class="{{flag==0?'select':'normal'}}" id="0" bindtap="switchNav">沪深</view>
+             </view>
+             <view>
+               <view class="{{flag==1?'select':'normal'}}" id="1" bindtap="switchNav">科创板</view>
+             </view>
+             <view>
+               <view class="{{flag==2?'select':'normal'}}" id="2" bindtap="switchNav">港股</view>
+             </view>
+             <view>
+               <view class="{{flag==3?'select':'normal'}}" id="3" bindtap="switchNav">沪深港通</view>
+             </view>
+             <view>
+               <view class="{{flag==4?'select':'normal'}}" id="4" bindtap="switchNav">美股</view>
+             </view>
+             <view>
+               <view class="{{flag==5?'select':'normal'}}" id="5" bindtap="switchNav">英股</view>
+             </view>
+             <view>
+               <view class="{{flag==6?'select':'normal'}}" id="6" bindtap="switchNav">期货</view>
+             </view>
+             <view>
+               <view class="{{flag==7?'select':'normal'}}" id="7" bindtap="switchNav">环球</view>
+             </view>
+             <view>
+               <view class="{{flag==8?'select':'normal'}}" id="8" bindtap="switchNav">基金</view>
+             </view>
+             <view>
+               <view class="{{flag==9?'select':'normal'}}" id="7" bindtap="switchNav">外汇</view>
+             </view>
+          </view>
+       </scroll-view>
+    </view>
+    <view class="add">
+      <image src="../../pages/images/icon/jiaohu.png" style="width:30px;height:30px;"></image>
+    </view>
+  </view>
+  <swiper current="{{flag}}" style="height:800px;">
+     <swiper-item>
+        <include src="hushen.wxml"/>
+     </swiper-item>
+     <swiper-item>
+        我是热点内容
+     </swiper-item>
+     <swiper-item>
+        我是北京内容
+     </swiper-item>
+     <swiper-item>
+        我是社会内容
+     </swiper-item>
+     <swiper-item>
+        我是娱乐内容
+     </swiper-item>
+     <swiper-item>
+        我是问答内容
+     </swiper-item>
+     <swiper-item>
+        我是图片内容
+     </swiper-item>
+     <swiper-item>
+        我是科技内容
+     </swiper-item>
+     <swiper-item>
+        我是汽车内容
+     </swiper-item>
+     <swiper-item>
+        我是体育内容
+     </swiper-item>
+  </swiper>
+</view>

@@ -1,0 +1,15 @@
+<view class="content">
+  <view class="type">
+     <view class="{{currentTab==0?'select2':'default'}}" data-current="0" bindtap="switchNav2">行情</view>
+     <view class="{{currentTab==1?'select2':'default'}}" data-current="1" bindtap="switchNav2">选股</view>
+  </view>
+  <view class="hr"></view>
+  <swiper current="{{currentTab}}" style="height:1500px;">
+     <swiper-item>
+        <include src="hangqing2.wxml" />
+     </swiper-item>
+     <swiper-item>
+        <include src="xuangu.wxml" />
+     </swiper-item>
+  </swiper>
+</view>
